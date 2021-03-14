@@ -1,0 +1,15 @@
+export interface TokenData {
+    token: string;
+    expiresIn: number;
+  }
+
+
+export  interface DataStoredInToken {
+    _id: string;
+  }
+
+
+export interface LogInDto {
+    email: string;
+    password: string;
+}
